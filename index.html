@@ -4,39 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="https://kit.fontawesome.com/4615551dac.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap"
       rel="stylesheet"
     />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     
 
     <title>Ajibola Kola</title>
   </head>
-  <body id="home">
-    <nav class="navbar">
-      <div class="container">
-        
-        
-        <h2 id="logo">
-          <a href="index.html ">Home</a>
-        </h2>
-
-
-        <ul class="nav-menu">
-          <a href="#showcase-1" class="smooth-scroll nav-item"><li>About</li></a>
-          <a href="#showcase-2" class="smooth-scroll nav-item"><li>Projects</li></a>
-          <a href="#showcase-5" class="smooth-scroll nav-item"><li>Blog</li></a>
-          <a href="#showcase-4" class="smooth-scroll nav-item"><li>Skills</li></a>
-          <a href="#showcase-3" class="smooth-scroll nav-item"><li>Social</li></a>
-        </ul>
+  <body class="home2" id="home">
+    <nav class="navbar navbar2">
+      <div class="container toggle">
+            <i class="fa fa-bars menu" aria-hidden="true"></i>
       </div>
+
+        <ul class="nav-menu nav-menu2">
+            <a href="#" class="smooth-scroll nav-item"><li id="list-item2">Home</li></a>
+          <a href="#showcase-1" class="smooth-scroll nav-item"><li id="list-item2">About</li></a>
+          <a href="#showcase-2" class="smooth-scroll nav-item"><li id="list-item2">Projects</li></a>
+          <a href="#showcase-5" class="smooth-scroll nav-item"><li id="list-item2">Blog</li></a>
+          <a href="#showcase-4" class="smooth-scroll nav-item"><li id="list-item2">Skills</li></a>
+          <a href="#showcase-3" class="smooth-scroll nav-item"><li id="list-item2">Social</li></a>
+        </ul>
     </nav>
 
     <!--showcase-->
     <div class="showcase-1" id="showcase-1">
-        <div class="profile">
+        
+      <div class="social-icons">
+          <a href="https://twitter.com/kol4grin04" target="_blank">
+            <i class="fa fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://www.linkedin.com/in/kola-ajibola-9ab231149" target="_blank" >
+            <i class="fa fa-linkedin fa-2x"></i>
+          </a>
+          <a href="https://facebook.com/kol4grin01" target="_blank">
+            <i class="fa fa-facebook fa-2x"></i>
+          </a>
+          <a href="https://github.com/kol4grin01" target="_blank">
+            <i class="fa fa-github fa-2x"></i>
+          </a>
+        </div>
+      <div class="profile">
             <img src="img/profile.png" alt="" />
           </div>
       
@@ -48,22 +59,6 @@
 						I am a Front-End Web Developer/IT Support Specialist, and I build my world around knowledge acquisition.
 						I am also into Digital Marketing as I believe it is the most obvious way of getting oneself or idea into the world.
           </p>
-          <div class="social-icons">
-            <a href="https://twitter.com/kol4grin04" target="_blank"
-              ><i class="fab fa-twitter fa-2x"></i
-            ></a>
-            <a
-              href="http://www.linkedin.com/in/kola-ajibola-9ab231149"
-              target="_blank"
-              ><i class="fab fa-linkedin fa-2x"></i
-                ></a>
-                <a href="https://facebook.com/kol4grin01" target="_blank"
-                  ><i class="fab fa-facebook fa-2x"></i>
-                </a>
-            <a href="https://github.com/kol4grin01" target="_blank"
-              ><i class="fab fa-github fa-2x"></i
-            ></a>
-          </div>
         </div>
         
       </div>
@@ -74,8 +69,8 @@
       <h1>Projects</h1>
       <div class="gallary container">
         <div class="work-item">
-          <a href="https://nwafor-onyebuchi.github.io/Get-The-Lyrics/#/"><img src="img/project-1.jpg" alt=""/></a>
-          <a href="https://nwafor-onyebuchi.github.io/Get-The-Lyrics/#/" class="btn btn-1"
+          <a href="paycard.html"><img src="img/project-1.jpg" alt=""/></a>
+          <a href="paycard.html" class="btn btn-1"
             > PayCardWeb App</a>
             <p class="work-para">Design of a mobile web PayCard app for online purchase using DebitCards</p>
         </div>
@@ -83,15 +78,15 @@
         <div class="work-item">
             <a href="https://nwafor-onyebuchi.github.io/Get-The-Lyrics/#/"><img src="img/project-1.jpg" alt=""/></a>
             <a href="https://nwafor-onyebuchi.github.io/Get-The-Lyrics/#/" class="btn btn-1"
-              > PayCardWeb App</a>
-              <p class="work-para">Design of a mobile web PayCard app for online purchase using DebitCards</p>
+              > Angular Project</a>
+              <p class="work-para">Working with Angular</p>
           </div>
 
           <div class="work-item">
               <a href="https://nwafor-onyebuchi.github.io/Get-The-Lyrics/#/"><img src="img/project-1.jpg" alt=""/></a>
               <a href="https://nwafor-onyebuchi.github.io/Get-The-Lyrics/#/" class="btn btn-1"
-                > PayCardWeb App</a>
-                <p class="work-para">Design of a mobile web PayCard app for online purchase using DebitCards</p>
+                > Article Writing</a>
+                <p class="work-para"><span> Articles I have worked on </span></p>
             </div>
     </section>
 
@@ -100,7 +95,7 @@
     <section id="showcase-5">
         <h1>Blog</h1>
         <div class="blog container">
-          <div class="work-item">
+          <div id="blog-work-item" class="work-item">
             <a href="https://nwafor-onyebuchi.github.io/Get-The-Lyrics/#/"><img class="img-width" src="img/project-1.jpg" alt=""/></a>
             <a href="https://nwafor-onyebuchi.github.io/Get-The-Lyrics/#/" class="btn btn-1"
               >My Blog, My World</a>
@@ -126,7 +121,7 @@
           <a href="http://ude.my/UC-SWNCXERD"><img src="img/skills/angular.png" alt=""/></a>
         </div>
         <div class="skill-item">
-          <a href="https://www.youracclaim.com/badges/4d49ec3f-7782-43e5-9c52-9ecba714ef6f/linked_in_profile"><img src="img/skills/googleIT.png" alt=""/></a>
+          <a href="https://www.youracclaim.com/badges/4d49ec3f-7782-43e5-9c52-9ecba714ef6f/linked_in_profile"><img src="img/skills/googleIT.jpg" alt=""/></a>
         </div>
         <div class="skill-item">
           <a href="http://https//LEARNDIGITAL.WITHGOOGLE.COM/DIGITALSKILLS/validate-certificate-code"><img src="img/skills/digital.png" alt=""/></a>
@@ -168,6 +163,8 @@
           <a class="footer-info" href="https://kol4grin01.github.io/My-Portfolio/">&copy; Kolade 2019</a>
         </section>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="navbar.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
   </body>

@@ -1,0 +1,10 @@
+1. this is a font script i took out of my code as a result of 
+initially having one that works offline with internet access before it loads my icons.
+Here is the script ===
+<script src="https://kit.fontawesome.com/4615551dac.js"></script>
+
+this is the sample of the i tag
+
+<i class="fab fa-twitter fa-2x"></i>
+
+Its uses fab unliike the other one that uses fa only
