@@ -214,7 +214,10 @@ ul{
 }
 
 .blog img {
-    width: 100%;
+    width: 40%;
+    padding-top: 15px;
+    margin-right: 42%;
+    margin-left: 30%;
 }
 
 .gallary img{
@@ -227,6 +230,19 @@ ul{
     margin-right: auto;
     margin-left: auto;
     width: 80%
+}
+
+.project-div-ang {
+    padding-top: 15%;
+}
+
+.project-div-paycard {
+    padding-top: 15%;
+    padding-bottom: auto  ;
+}
+
+.project-div-article {
+    padding-top: 0%;
 }
 
 #blog-work-item{
