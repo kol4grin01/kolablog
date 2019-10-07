@@ -439,6 +439,13 @@ figure img {
         font-size: 0.8rem;
     }
 
+    .blog img {
+        width: 60%;
+        padding-top: 15px;
+        margin-right: 42%;
+        margin-left: 20%;
+    }
+
     .toggle {
         display: block;
     }
@@ -504,7 +511,7 @@ figure img {
 
     .social{
         width: 60%;
-        margin-left: 50px;
+        margin-left: 55px;
         margin-right: auto;
     }
     
@@ -514,7 +521,7 @@ figure img {
     
     .img-width {
         height: 100px;
-        width: 550px;
+        width: 50px;
     }
 
 
