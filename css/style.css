@@ -376,7 +376,6 @@ figcaption {
 figure img {
     width: 70%;
     margin-left: 15%;
-    margin-rigt: 20%;
 }
 
 .header {
@@ -410,11 +409,9 @@ figure img {
     color: #7b8887;
 }
 
-.post-body-div {
-    line-height: 2.5rem;
-}
 
 .post-body-div {
+    line-height: 2.5rem;
     margin-left: 25%;
     margin-right: 25%;
 }
@@ -433,7 +430,7 @@ figure img {
 
     /*Mobile-Responsiveness*/
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     body {
         font-size: 0.8rem;
@@ -635,5 +632,49 @@ figure img {
     text-align: justify;
     font-size: 1rem;
 
+    }
+
+    
+    .post-body-div {
+        line-height: 2rem;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 1rem;
+    }
+
+    .header h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .post-para a {
+        font-size: 19px;
+        line-height: 1.5;
+        margin-bottom: 60px;
+        text-align: center;
+        color: rgb(248, 148, 17);
+    }
+    
+    .post-para {
+        color: #7b8887;
+        text-align: left;
+    }
+
+    .post-para-p {
+        text-align: right;
+        margin-left: 30px;
+    }
+    
+    .header-img img {
+        margin-left: 30%;
+        margin-right: 20%;
+        margin-bottom: 5px;
+        width: 40%;
+    }
+
+    figure img {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 5px;
     }
 }
