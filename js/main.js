@@ -1,14 +1,13 @@
 /*smooth scroll effect*/
 $(function() {
-    $("a.smooth-scroll").click(function(event){
-        event.preventDefault();
+    $("a.smooth-scroll").click(function(){
 
         //get/return id like #about, #home, etc
         var section = $(this).attr("href");
 
         $('html, body').animate({
             scrollTop: $(section).offset().top
-        }, 2000);
+        }, 3000);
     });
 });
 

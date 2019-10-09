@@ -8,3 +8,10 @@ this is the sample of the i tag
 <i class="fab fa-twitter fa-2x"></i>
 
 Its uses fab unliike the other one that uses fa only
+
+
+
+
+problem - href not working when clicked
+cause- preventDefault()
+solution - i had to go into my main.s to remove the event.preventDefault(); function that was called and every thing started working normally when clicked.

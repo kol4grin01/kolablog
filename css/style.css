@@ -381,7 +381,6 @@ figure img {
 .header {
     box-shadow: 0 0 20px rgba(105, 96, 96, 0.25);
     padding: 20px 40px;
-    z-index: 99;
     position: relative;
     margin-bottom: 10px;
 }
