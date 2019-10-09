@@ -636,8 +636,8 @@ figure img {
     
     .post-body-div {
         line-height: 2rem;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 2%;
+        margin-right: 2%;
         font-size: 1rem;
     }
 
@@ -659,9 +659,14 @@ figure img {
         text-align: left;
     }
 
-    .post-para-p {
+    .post-para-p1 {
         text-align: right;
-        margin-left: 30px;
+        margin-left: 15px;
+    }
+
+    .post-para-p2 {
+        text-align: right;
+        margin-left: 75px;
     }
     
     .header-img img {
