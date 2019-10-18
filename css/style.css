@@ -4,6 +4,11 @@
     --overlay: rgba(223, 104, 25, 0.925);
 }
 
+
+html {
+    overflow-x: hidden;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -175,10 +180,8 @@ ul{
 }
 
 .blog img {
-    width: 40%;
-    padding-top: 15px;
-    margin-right: 42%;
-    margin-left: 30%;
+    width: 100%;
+   
 }
 
 .gallary img{
@@ -199,7 +202,7 @@ ul{
 
 .project-div-paycard {
     padding-top: 15%;
-    padding-bottom: auto  ;
+    padding-bottom: auto;
 }
 
 .project-div-article {
@@ -211,7 +214,7 @@ ul{
     transition: all ease-out 1s;
     margin-right: auto;
     margin-left: auto;
-    width: 50%
+    width: 40%
 }
 
 .work-item:hover{
@@ -346,13 +349,18 @@ ul{
 
 .main-heading {
     font-family: 'Montserrat', 'Open Sans', 'Oswald', sans-serif;
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
     line-height: 2;
     font-size: 21px;
 }
+
+.article-header-img {
+    background-color: #f3f3f3;
+}
+
 
 .header-img img{
     margin-left: 35%;
@@ -382,7 +390,7 @@ figure img {
     box-shadow: 0 0 20px rgba(105, 96, 96, 0.25);
     padding: 20px 40px;
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .header h1 {
@@ -432,6 +440,92 @@ figure img {
     margin-right: auto;
 }
 
+.time-created, time {
+    font-size: 15px;
+}
+
+time:hover {
+   color: rgb(144, 191, 233);
+}
+
+
+.date-div {
+    line-height: 120%;
+}
+
+.comment-box p {
+    color: rgb(175, 201, 241);
+}
+
+.img-width {
+    height: 250px;
+    width: 40px;
+}
+
+
+
+/* Article Section*/
+.article-head img {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 0%;
+    margin-bottom: auto;
+    width: 200px;
+    height: 200px;
+    line-height: 20%;
+}
+
+.article-head {
+    background-color: white;
+}
+
+.article-name {
+    color: black;
+    line-height: 5%;
+}
+
+
+.article-name:hover {
+    color: rgb(144, 191, 233);
+}
+
+.article-head-span h2 {
+    color: #1e73be;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+
+.article-head-span h2:hover {
+    color: black;
+    font-size: 29.9px;
+}
+
+.written-by-div {
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+
+.line {
+    background-color: #cc4c4c;
+    width: 100%;
+    visibility:var(--primary-color);
+    height: 10%;
+}
+
+.post-body-div span {
+ font-weight: bold;
+}
+
+.post-body-div h2 {
+    text-align: center;
+}
+
+
+
+
 
     /*Mobile-Responsiveness*/
 
@@ -442,10 +536,7 @@ figure img {
     }
 
     .blog img {
-        width: 60%;
-        padding-top: 15px;
-        margin-right: 42%;
-        margin-left: 20%;
+        width: 100%;
     }
 
     .toggle {
@@ -508,7 +599,7 @@ figure img {
 
 
     #blog-work-item{
-        width: 70%;
+        width: 60%;
     }
 
     .social{
@@ -522,7 +613,7 @@ figure img {
     }
     
     .img-width {
-        height: 100px;
+        height: 200px;
         width: 50px;
     }
 
@@ -548,9 +639,9 @@ figure img {
     .other-profile-page img {
     display: block;
     height: 20%;
-    width:  25%;
-    margin-left: auto;
-    margin-right: auto;
+    width:  23%;
+    margin-left: 7%;
+    margin-right: 15%;
     margin-bottom: 10px;
     border-radius: 80%;
     }
@@ -642,18 +733,19 @@ figure img {
     
     .post-body-div {
         line-height: 2rem;
-        margin-left: 4%;
-        margin-right: 4%;
+        margin-left: 5%;
+        margin-right: 5%;
         font-size: 1rem;
     }
 
     .header h1 {
         font-size: 25px;
         text-align: center;
+        margin-bottom: 5px;
     }
 
     .post-para a {
-        font-size: 10px;
+        font-size: 15px;
         line-height: 1.5;
         margin-bottom: 60px;
         text-align: center;
@@ -665,6 +757,7 @@ figure img {
         color: #7b8887;
         text-align: left;
         margin-left: 0%;
+        line-height: 100%;
     }
 
     .post-para p:first-child {
@@ -674,11 +767,23 @@ figure img {
     .post-para-p1 {
         text-align: right;
         margin-left: 5px;
+
     }
 
-    .post-para-p2 {
+    .twitt .post-para-p2 {
         text-align: right;
         margin-left: 75px;
+        margin-bottom: 70%;
+        display: block;
+    }
+
+    .time-created, time {
+        font-size: 12px;
+    }
+    
+
+    .date-div {
+        line-height: 120%;
     }
     
     .header-img img {
