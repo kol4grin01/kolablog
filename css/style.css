@@ -288,7 +288,7 @@ ul{
     text-align: justify;
     margin-bottom: 40px;
     font-size: 40px;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 .gallary-2 img{
@@ -300,8 +300,10 @@ ul{
     display: block;
     text-align: justify;
     margin-bottom: 40px;
+    margin-left: 40px;
     font-size: 40px;
 }
+
 
 
 .boxes {
@@ -361,6 +363,13 @@ ul{
     background-color: #f3f3f3;
 }
 
+.seo-img img {
+    margin-left: 25%;
+    margin-right: 0%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 50%;
+}
 
 .header-img img{
     margin-left: 35%;
@@ -369,6 +378,7 @@ ul{
     margin-top: 30px;
     width: 30%;
 }
+
 
 .post-body p {
     margin-bottom: 25px;
@@ -381,9 +391,27 @@ figcaption {
     font-size: 15px;
 }
 
-figure img {
+.figures-img img {
     width: 70%;
     margin-left: 15%;
+}
+
+
+.mattress-img img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+#seo1-img img {
+    width: 60%;
+    margin-left: 15%;
+}
+
+.intro-paddle-img img{
+    margin-left: 30%;
+    margin-top: 30px;
+    width: 40%;
 }
 
 .header {
@@ -468,9 +496,9 @@ time:hover {
 .article-head img {
     margin-left: 30%;
     margin-right: 30%;
-    margin-top: 0%;
+    margin-top: 3%;
     margin-bottom: auto;
-    width: 200px;
+    width: 210px;
     height: 200px;
     line-height: 20%;
 }
@@ -523,6 +551,20 @@ time:hover {
     text-align: center;
 }
 
+.on-page img {
+    width: 100%;
+    margin-left: 0%;
+}
+
+.article-list {
+    list-style-type: disc;
+    padding-left: 8%;
+}
+
+.article-sub-list {
+    padding-left: 8%;
+    list-style-type: lower-latin;
+}
 
 
 
@@ -613,7 +655,7 @@ time:hover {
     }
     
     .img-width {
-        height: 200px;
+        height: 125px;
         width: 50px;
     }
 
@@ -703,6 +745,7 @@ time:hover {
 
     #showcase-3 h2 {
         font-size: 2rem;
+        margin-left: 4px;
     }
 
     #showcase-4 {
@@ -803,5 +846,38 @@ time:hover {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* Articles Section */
+    .intro-img img {
+        margin-left: 35%;
+        margin-right: 20%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    /*.intro-seo-img img {
+        margin-left: 10%;
+        margin-top: 30px;
+        width: 60%
+    } */
+
+    .intro-paddle-img img {
+        margin-left: 15%;
+        margin-top: 30px;
+        width: 70%
+    }
+
+    .figure-img img {
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 5px;
+    }
+
+    .mattress-img img {
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 5px;
     }
 }
