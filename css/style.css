@@ -197,11 +197,11 @@ ul{
 }
 
 .project-div-ang {
-    padding-top: 15%;
+    padding-top: 0%;
 }
 
 .project-div-paycard {
-    padding-top: 15%;
+    padding-top: 0%;
     padding-bottom: auto;
 }
 
@@ -229,6 +229,14 @@ ul{
     margin-top: 8px;
     text-align: center;
     transition: all ease-out 1s
+}
+
+.project-img img {
+    height: 100px;
+}
+
+.samp {
+    height: 300px;
 }
 
 .work-item .btn:hover{
@@ -879,5 +887,22 @@ time:hover {
         width: 70%;
         margin-left: 15%;
         margin-bottom: 5px;
+    }
+
+    .article-head img {
+        margin-left: 20%;
+        margin-top: 3%;
+        margin-bottom: auto;
+        width: 210px;
+        height: 200px;
+        line-height: 20%;
+    }
+
+    
+.seo-img img {
+        margin-left: 10%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        width: 80%;
     }
 }
