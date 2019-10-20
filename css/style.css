@@ -225,8 +225,8 @@ ul{
 .work-item .btn{
     display: block;
     padding: 7px;
-    font-size: 20px;
-    margin-top: 8px;
+    font-size: 17px;
+    margin-top: 0px;
     text-align: center;
     transition: all ease-out 1s
 }
