@@ -15,3 +15,116 @@ Its uses fab unliike the other one that uses fa only
 problem - href not working when clicked
 cause- preventDefault()
 solution - i had to go into my main.s to remove the event.preventDefault(); function that was called and every thing started working normally when clicked.
+
+
+alternative for article section:
+
+      <div>
+        <section>
+          <main class="post-body">
+            <div class="post-body-div">
+
+                <div class="article-header-img">
+                  <div class="article-head">
+                    
+                      <span class="article-head-span">
+                        <a href="article-contents/seo-article.html">
+                          <h2>
+                            How Search Engine Optimization Works
+                          </h2>
+                        </a>
+                      </span>
+                    <a href="article-contents/seo-article.html">
+                      <figure>
+                        <img src="img/article-img/seo.jpg" alt="seo-article-image">
+                      </figure>
+                    </a>
+                  </div>  
+                   
+                  <div>
+                    <div class="date-div">
+                      <span class="time-created">
+                        Created
+                      </span>
+                      <time datetime="2019-10-13T08:30" title="2019-10-13 at 02:45 PM">
+                        October 13, 2019
+                      </time>
+                      <div class="written-by-div">
+                        <p>Written by 
+                          <a class="article-name" href="index.html">Ajibola Kola</a>
+                        </p>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+
+
+                <div class="article-header-img">
+                  <div class="article-head">
+                    
+                      <span class="article-head-span">
+                        <a href="article-contents/how-to-paddleboard.html">
+                          <h2>
+                            How to paddleboard
+                          </h2>
+                        </a>
+                      </span>
+                    <a href="article-contents/how-to-paddleboard.html">
+                      <figure>
+                        <img src="img/article-img/how-to-paddleboard1.jpg" 
+                        alt="how to paddleboard2">
+                      </figure>
+                    </a>
+                  </div>  
+                   
+                  <div>
+                    <div class="date-div">
+                      <span class="time-created">
+                        Created
+                      </span>
+                      <time datetime="2019-07-04T08:30" title="2019-07-04 at 11:10 AM">
+                        July 04, 2019
+                      </time>
+                      <div class="written-by-div">
+                        <p>Written by 
+                          <a class="article-name" href="index.html">Ajibola Kola</a>
+                        </p>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="article-header-img">
+                  <div class="article-head">
+                    
+                      <span class="article-head-span">
+                        <a href="article-contents/Best Mattresses For Heavy People 2019.html">
+                          <h2>
+                            Tips to Choose Best Mattresses for Heavy People 2019
+                          </h2>
+                        </a>
+                      </span>
+                    <a href="article-contents/Best Mattresses For Heavy People 2019.html">
+                      <figure>
+                        <img src="img/article-img/mattress for heavy people1.jpg" 
+                        alt="best mattress for heavy people-image">
+                      </figure>
+                    </a>
+                  </div>  
+                   
+                  <div>
+                    <div class="date-div">
+                      <span class="time-created">
+                        Created
+                      </span>
+                      <time datetime="2019-04-16T08:30" title="2019-04-16 at 8:22 PM">
+                        April 16, 2019
+                      </time>
+                      <div class="written-by-div">
+                        <p>Written by 
+                          <a class="article-name" href="index.html">Ajibola Kola</a>
+                        </p>
+                      </div>
+                      </div>
+                  </div>
+                </div>

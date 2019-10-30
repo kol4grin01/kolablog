@@ -171,6 +171,7 @@ ul{
 .gallary {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 0%;
 }
 
 .blog {
@@ -193,7 +194,7 @@ ul{
     transition: all ease-out 1s;
     margin-right: auto;
     margin-left: auto;
-    width: 80%
+    width: 60%;
 }
 
 .project-div-ang {
@@ -232,7 +233,7 @@ ul{
 }
 
 .project-img img {
-    height: 100px;
+    height: 150px;
 }
 
 .samp {
@@ -271,12 +272,12 @@ ul{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 0%;
-    margin-left: 15rem;
+    margin-left: 18rem;
     margin-right: 15rem;
 }
 
 .social img{
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
@@ -289,7 +290,7 @@ ul{
     grid-gap: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 50%;
 }
 
 #showcase-4 h1 {
@@ -484,6 +485,20 @@ time:hover {
    color: rgb(144, 191, 233);
 }
 
+.px-2 {
+    margin-top: 2%;
+}
+
+.card-text {
+    margin-top: 5%;
+}
+
+.card {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .date-div {
     line-height: 120%;
@@ -532,10 +547,16 @@ time:hover {
     line-height: 1.2em;
 }
 
+.fluid h2{
+    text-decoration: none;
+
+}
+
 
 .article-head-span h2:hover {
     color: black;
     font-size: 29.9px;
+    text-decoration-style: none;
 }
 
 .written-by-div {
@@ -654,7 +675,7 @@ time:hover {
 
     .social{
         width: 60%;
-        margin-left: 55px;
+        margin-left: 22%;
         margin-right: auto;
     }
     
