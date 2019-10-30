@@ -233,7 +233,7 @@ ul{
 }
 
 .project-img img {
-    height: 150px;
+    height: 110px;
 }
 
 .samp {
@@ -655,6 +655,12 @@ time:hover {
         margin: .4rem 1.5rem;
     }
 
+
+    .gallary-2{
+        width: 80%;
+    }
+
+
     .work-item {
         border: #fff solid 2px;
         transition: all ease-out 1s;
@@ -674,8 +680,8 @@ time:hover {
     }
 
     .social{
-        width: 60%;
-        margin-left: 22%;
+        width: 80%;
+        margin-left: 12%;
         margin-right: auto;
     }
     
