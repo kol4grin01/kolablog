@@ -637,6 +637,11 @@ time:hover {
     }
 
 
+    .article-head-span h2 {
+        text-align: center;
+    }
+
+
     .showcase-1 .container {
         grid-template-columns: 1fr;
         grid-gap: 10px;
