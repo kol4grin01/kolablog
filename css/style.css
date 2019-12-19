@@ -254,6 +254,11 @@ ul{
     color: #444;
 }
 
+.paycard-img {
+    margin-left: 0;
+    margin-right : 0;
+}
+
 
 .work-para {
     text-align: center;
