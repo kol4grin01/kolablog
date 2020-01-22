@@ -378,13 +378,19 @@ ul{
 }
 
 .seo-img img {
-    margin-left: 50%;
+    margin-left: 25%;
     margin-right: 0%;
     margin-bottom: 30px;
     margin-top: 30px;
-    width: 100%;
-    
+    width: 50%;
+}
 
+.fela-img img {
+    margin-left: 24.5%;
+    margin-right: 0%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 50%;
 }
 
 .header-img img{
@@ -564,10 +570,12 @@ time:hover {
 
 }
 
+/*
 .fela-img {
     height: 10%;
     width: 50%;
 }
+*/
 
 
 .article-head-span h2:hover {
@@ -602,11 +610,12 @@ time:hover {
     margin-left: 0%;
 }
 
+/*
 .fela-page1 img {
     width: 75%;
     margin-left: 12%;
     height: 20%;
-}
+} */
 
 .article-list {
     list-style-type: disc;
@@ -953,7 +962,14 @@ time:hover {
     }
 
     
-.seo-img img {
+    .seo-img img {
+        margin-left: 10%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .fela-img img {
         margin-left: 10%;
         margin-bottom: 30px;
         margin-top: 20px;
